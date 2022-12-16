@@ -1,0 +1,10 @@
+{
+  "name": "mts-npm-a",
+  "version": "0.1.0",
+  "description": "MST-NPM-SERIES/mts-npm-a: A basic npm package",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {},
+  "author": "microu",
+  "license": "MIT"
+}
