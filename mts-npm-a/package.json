@@ -1,6 +1,6 @@
 {
   "name": "mts-npm-a",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "MST-NPM-SERIES/mts-npm-a: A basic npm package",
   "type": "module",
   "main": "src/index.js",
