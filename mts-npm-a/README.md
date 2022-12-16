@@ -4,7 +4,6 @@ MTS-NPM-A
 A basic javascript package.
 
 
-
 ## Release history
 
 ### v0.1.2 20221216
