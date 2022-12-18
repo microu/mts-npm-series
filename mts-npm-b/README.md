@@ -4,6 +4,10 @@ A basic typescript package using rollup for typescript transpilation
 
 ## Release history
 
+### v0.1.1 20221216
+
+- Add README
+
 ### v0.1.0 20221216
 
-First release, implementing `randomChoice`, `randomSelection` and `shuffle` functions.
+- First release, implementing `randomChoice`, `randomSelection` and `shuffle` functions.

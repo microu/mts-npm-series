@@ -1,0 +1,19 @@
+{
+  "name": "mts-npm-w01",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "server": "http-server -p 8888"
+  },
+  "author": "microu",
+  "license": "MIT",
+  "dependencies": {
+    "mts-npm-a": "^0.1.3",
+    "mts-npm-b": "^0.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
