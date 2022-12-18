@@ -1,14 +1,15 @@
 {
   "name": "mts-npm-b",
-  "version": "0.1.2",
-  "description": "MST-NPM-SERIES/mts-npm-b: A basic typescript npm package",
+  "version": "0.1.4",
+  "description": "MST-NPM-SERIES/mts-npm-b: A basic typescript+javascript npm package",
   "type": "module",
   "main": "dist/index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc && cp src/*.d.ts dist/"
+  },
   "author": "microu",
   "license": "MIT",
   "devDependencies": {
-    "tsc": "^2.0.4",
     "typescript": "^4.9.4"
   }
 }

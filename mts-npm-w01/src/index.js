@@ -1,5 +1,8 @@
 import { randomNumber } from "../node_modules/mts-npm-a/src/index.js";
-import { shuffle } from "../node_modules/mts-npm-b/dist/index.js";
+import {
+  shuffle,
+  randomSelection,
+} from "../node_modules/mts-npm-b/dist/index.js";
 
 const content = document.getElementById("content");
 
@@ -49,7 +52,6 @@ content.appendChild(
   )
 );
 
-
 content.appendChild(element("h3", "<code>randomNumber(5, 10.1, 0.5)</code>"));
 content.appendChild(
   element(
@@ -60,14 +62,16 @@ content.appendChild(
   )
 );
 
-const alphabet = Array.from(new Array(26), (_,i)=> String.fromCodePoint("A".codePointAt(0) + i)) 
+const alphabet = Array.from(new Array(26), (_, i) =>
+  String.fromCodePoint("A".codePointAt(0) + i)
+);
 
 content.appendChild(element("h3", "<code>shuffle(alphabet)</code>"));
 content.appendChild(
-  element(
-    "p",
-    `<code>${shuffle(alphabet).join(
-      ", "
-    )}</code>`
-  )
+  element("p", `<code>${shuffle(alphabet).join(", ")}</code>`)
+);
+
+content.appendChild(element("h3", "<code>randomSelection(alphabet)</code>"));
+content.appendChild(
+  element("p", `<code>${randomSelection(alphabet, 8).join(", ")}</code>`)
 );
