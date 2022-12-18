@@ -2,6 +2,8 @@
 
 A basic typescript package using rollup for typescript transpilation
 
+`tsc --init --rootDir src --outDir dist --target es6 --declaration`
+
 ## Release history
 
 ### v0.1.1 20221216

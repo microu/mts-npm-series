@@ -1,5 +1,5 @@
 import { randomNumber } from "../node_modules/mts-npm-a/src/index.js";
-//import { shuffle } from "mts-npm-b";
+import { shuffle } from "../node_modules/mts-npm-b/dist/index.js";
 
 const content = document.getElementById("content");
 
@@ -62,12 +62,12 @@ content.appendChild(
 
 const alphabet = Array.from(new Array(26), (_,i)=> String.fromCodePoint("A".codePointAt(0) + i)) 
 
-// content.appendChild(element("h3", "<code>shuffle(alphabet)</code>"));
-// content.appendChild(
-//   element(
-//     "p",
-//     `<code>${shuffle(alphabet).join(
-//       ", "
-//     )}</code>`
-//   )
-// );
+content.appendChild(element("h3", "<code>shuffle(alphabet)</code>"));
+content.appendChild(
+  element(
+    "p",
+    `<code>${shuffle(alphabet).join(
+      ", "
+    )}</code>`
+  )
+);

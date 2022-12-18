@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "mts-npm-a": "^0.1.3",
-    "mts-npm-b": "^0.1.0"
+    "mts-npm-b": "^0.1.2"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
